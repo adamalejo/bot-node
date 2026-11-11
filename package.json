@@ -1,16 +1,17 @@
 {
-  "name": "bot-node",
-  "version": "1.0.0",
-  "type": "module",
-  "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "dependencies": {
-    "discord.js": "^14.14.1",
-    "dotenv": "^16.4.5"
-  }
+ "name": "bot-node",
+ "version": "1.0.0",
+ "private": true,
+ "type": "module",
+ "main": "bot.js",
+ "scripts": {
+ "start": "node bot.js"
+ },
+ "engines": {
+ "node": ">=18"
+ },
+ "dependencies": {
+ "discord.js": "^14.14.1",
+ "dotenv": "^16.4.5"
+ }
 }
